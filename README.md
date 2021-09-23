@@ -1,5 +1,11 @@
 # Deploying a Flask API
 
+# The project is deployed to:
+
+```http://a55c144d5dd344a5ba6a62d285afbea9-792377871.us-east-2.elb.amazonaws.com/```
+
+JWT_SECRET = "myJWTsecret"
+
 This is the project starter repo for the course Server Deployment, Containerization, and Testing.
 
 In this project you will containerize and deploy a Flask API to a Kubernetes cluster using Docker, AWS EKS, CodePipeline, and CodeBuild.
@@ -36,3 +42,6 @@ Completing the project involves several steps:
 6. Create a CodeBuild stage which will build, test, and deploy your code
 
 For more detail about each of these steps, see the project lesson.
+
+
+
